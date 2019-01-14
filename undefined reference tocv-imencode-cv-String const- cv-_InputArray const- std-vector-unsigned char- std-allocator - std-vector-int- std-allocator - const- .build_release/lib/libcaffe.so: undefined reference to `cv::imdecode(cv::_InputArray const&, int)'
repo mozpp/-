@@ -1,0 +1,4 @@
+https://github.com/BVLC/caffe/issues/2348
+
+the reason is that 'make' can't find opencv files.
+if you compile opencv youself, try to uncomment "USE_PKG_CONFIG := 1" in Makefile.config
