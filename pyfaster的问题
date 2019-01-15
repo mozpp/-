@@ -1,0 +1,7 @@
+训练结束后测试时出现类似
+
+File "/home/hyzhan/py-faster-rcnn/tools/../lib/datasets/voc_eval.py", line 126, in voc_eval
+    R = [obj for obj in recs[imagename] if obj['name'] == classname]
+KeyError: '000002'
+
+解决方法: 删除data/VOCdekit2007下的annotations_cache文件夹
