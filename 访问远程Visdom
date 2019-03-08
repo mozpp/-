@@ -1,0 +1,16 @@
+https://www.jianshu.com/p/41d4ca00f4f3
+
+1. 连接ssh时，将服务器的8097端口重定向到自己机器上来：
+ssh -L 18097:127.0.0.1:8097 username@remote_server_ip
+
+其中：18097:127.0.0.1代表自己机器上的18097号端口，8097是服务器上visdom使用的端口。
+2. 在服务器上使用8097端口正常启动tensorboard：
+python -m visdom.server
+
+3. 在本地浏览器中输入地址：
+127.0.0.1:18097
+
+作者：kyle0x54
+链接：https://www.jianshu.com/p/41d4ca00f4f3
+来源：简书
+简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
