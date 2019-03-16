@@ -1,0 +1,33 @@
+Python之字符串的遍历
+1、第一种方式，for in
+
+    girl_str = "love You"
+     
+    for everyChar in girl_str:
+        print everyChar
+
+2、第二种方式，range()或xrange（），把字符串长度传进去就行
+
+    girl_str = "love You"
+     
+    for index in range(len(girl_str)):
+        print girl_str[index]
+
+3、第三种方式，enumerate()
+
+    girl_str = "love You"
+     
+    for index, everyChar in enumerate(girl_str):
+        print str(index) + everyChar
+
+4、第四种方式，iter()，怒赞中
+
+    girl_str = "love You"
+     
+    for everyChar in iter(girl_str):
+        print everyChar
+--------------------- 
+作者：叫我王员外就行 
+来源：CSDN 
+原文：https://blog.csdn.net/cadi2011/article/details/85333068 
+版权声明：本文为博主原创文章，转载请附上博文链接！
