@@ -17,6 +17,8 @@ def __iter__(self):
 
 =>
 pytorch的dataloacer.py的class _DataLoaderIter(object):
+          for _ in range(2 * self.num_workers):
+                self._put_indices()
 <div><img src="figs/QQ截图20190321195757.png" height="" /></div>
 
 =>
