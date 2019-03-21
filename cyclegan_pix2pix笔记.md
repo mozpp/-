@@ -28,3 +28,5 @@ pytorch的sampler.py的class RandomSampler(Sampler):
 <div><img src="figs/QQ截图20190321201043.png" height="" /></div>
 =>
 aligned_dataset.py
+
+结论：根据aligned_dataset.py以及template_dataset.py修改，建立自己的data读取器
