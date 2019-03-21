@@ -14,8 +14,11 @@ def __iter__(self):
             yield data
 =>
 pytorch的dataloacer.py的class _DataLoaderIter(object):
-![record/figs/QQ截图20190321195757.png]
+<div align="center"><img src="figs/QQ截图20190321195757.png" height="" /></div>
+
 =>
 pytorch的sampler.py的class RandomSampler(Sampler):
+<div align="center"><img src="figs/QQ截图20190321201022.png" height="" /></div>
+<div align="center"><img src="figs/QQ截图20190321201043.png" height="" /></div>
 =>
 aligned_dataset.py
